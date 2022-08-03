@@ -8,7 +8,7 @@ class Guess_Number
 
   def welcome
     puts '------------------'.colorize(:blue)
-    puts '| GUESSING GAME  |'.colorize(:blue)
+    puts ' GUESSING GAME  '.colorize(:blue)
     puts '------------------'.colorize(:blue)
     puts "This is a guessing game where you have to guess a secret random number between 1 and 12. Remember that you have only 3 attempts to guess the number!\n\n"
   end
