@@ -39,7 +39,7 @@ class Guess_Number
       @user_num = enter_user_num
       if !correct_num?
         @attempts -= 1
-        puts "Try again! You still have #{@attempts} attempts" if @attempts != 0
+        puts "Attempt #{attempt}. Try again!" if attempt != 3
       else
         break
       end 
